@@ -12,4 +12,3 @@ def read_items():
 @app.post("/items/")
 def create_item(item: Item):
     return {"item": item}
-uvi
